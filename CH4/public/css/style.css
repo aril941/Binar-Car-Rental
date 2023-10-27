@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+#our-services,
+#why-us,
+#testimony,
+#cta,
+#faq {
+  padding-top: 6.25rem;
+}
+
+ul li {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.btn-success {
+  background: #5cb85f;
+  border-radius: 2px;
+  padding: 8px 12px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 36px;
+  margin-bottom: 1rem;
+}
+
+.title-lg {
+  font-size: 2.3rem;
+  line-height: 50px;
+}
+
+.section-text {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+#hero {
+  background-color: #f1f3ff;
+  position: relative;
+  height: auto;
+}
+
+.nav-link {
+  margin-right: 2rem;
+}
+
+.hero-content {
+  padding-top: 7.3rem;
+  padding-bottom: 5.5rem;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.hero-image img {
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+
+.service-image {
+  width: 100%;
+  padding-left: 5rem;
+}
+
+.service-content {
+  padding: 2.5rem 2rem 0 3rem;
+}
+
+.icon-check {
+  background: url("https://res.cloudinary.com/dhwwzz0u2/image/upload/v1694182514/challenge-1/icons/check_oswam2.svg")
+    no-repeat left top;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+  font-weight: 400;
+}
+
+.why-us-content .card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.13rem;
+}
+
+.testimony-card {
+  width: 50%;
+  height: 16.875rem;
+  border-radius: 0.5rem;
+  background: #f1f3ff;
+  margin: 0 auto;
+  display: flex;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.testimony-photo {
+  padding: 0 46px;
+}
+
+.testimony-content {
+  padding-right: 2rem;
+}
+
+.testimony-body {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.testimony-footer {
+  font-weight: 600;
+}
+
+#cta .card {
+  background: rgba(13, 40, 166, 1);
+  padding: 4rem 0;
+  color: #fff;
+  border-radius: 13px;
+}
+
+.card-content p {
+  width: 55%;
+  margin: 0 auto 3.25rem;
+}
+
+.accordion-item,
+.accordion-button {
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.accordion-button:not(.collapsed) {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-radius: 0;
+}
+
+.accordion-button:focus {
+  border-radius: 4px;
+}
+
+footer {
+  padding: 150px 0 100px;
+}
+
+.footer-social {
+  padding-left: 3rem;
+}
+
+.footer-navbar {
+  font-weight: 500;
+}
+
+/* page cars */
+
+.hero-content.car-search {
+  padding-bottom: 140px;
+}
+
+.card-filter {
+  padding: 1.5rem;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem !important;
+}
+
+.card-filter .car-title {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.card-filter .car-price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.card-filter .car-text {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.card-car {
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.car-input {
+  width: 22.7%;
+}
+
+.car-input input,
+.car-input select {
+  padding: 9px 12px;
+  font-size: 15px;
+}
+
+.btn-card-filter {
+  width: 100%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.car-image {
+  width: 270px;
+  height: 220px;
+}

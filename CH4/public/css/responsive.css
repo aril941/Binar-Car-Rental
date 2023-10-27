@@ -1,0 +1,162 @@
+@media only screen and (max-width: 769px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  ul li {
+    font-size: 0.875rem;
+  }
+
+  #our-services,
+  #why-us,
+  #testimony,
+  #cta,
+  #faq {
+    padding-top: 3.75rem;
+  }
+
+  .offcanvas.offcanvas-end {
+    width: 60%;
+  }
+
+  #hero {
+    height: 44rem;
+    position: relative;
+  }
+
+  .hero-content {
+    padding-top: 2rem;
+    padding-bottom: 0;
+  }
+
+  .hero-image img {
+    width: 100% !important;
+    position: absolute;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    right: 0;
+    bottom: 0;
+  }
+
+  .service-image {
+    width: 80%;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+
+  .service-content {
+    padding: 1.5rem 0 0;
+  }
+
+  .icon-check {
+    padding-left: 2.5rem;
+  }
+
+  /* .why-us-content .card {
+    margin-bottom: 1rem;
+  } */
+
+  .testimony-card {
+    width: 100%;
+    height: 23.25rem;
+  }
+
+  .testimony-photo {
+    text-align: center;
+  }
+
+  .testimony-content img {
+    padding: 1.5rem 0;
+  }
+
+  .testimony-content {
+    padding: 0;
+    text-align: center;
+  }
+
+  .testimony-body {
+    font-size: 0.875rem;
+    text-align: left;
+  }
+
+  .testimony-footer {
+    font-size: 0.875rem;
+    text-align: left;
+  }
+
+  .testimony-layout {
+    display: block !important;
+    margin: 2.5rem 2rem;
+  }
+
+  .carousel-control-next {
+    padding-right: 0 !important;
+    padding-left: 1.3rem !important;
+  }
+  .carousel-control-prev {
+    padding-left: 0 !important;
+    padding-right: 1.3rem !important;
+  }
+
+  #cta .card {
+    padding: 4rem 3.625rem;
+  }
+
+  #cta h4 {
+    font-size: 1.8rem;
+    line-height: 36px;
+  }
+
+  .card-content p {
+    width: 100%;
+    font-size: 0.875rem;
+    margin-bottom: 2rem;
+  }
+
+  .accordion-item,
+  .accordion-button {
+    font-size: 0.875rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .why-us-content .card {
+    margin-bottom: 1rem;
+  }
+
+  #hero {
+    height: 44rem;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+
+  .testimony-card {
+    width: 80%;
+  }
+
+  #faq .section-text {
+    margin-bottom: 1.5rem !important;
+  }
+
+  footer {
+    padding: 3.75rem 0;
+  }
+
+  .footer-social {
+    padding-left: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer-navbar {
+    justify-content: start !important;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-image img {
+    width: 55%;
+  }
+}
